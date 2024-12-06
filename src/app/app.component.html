@@ -2,7 +2,7 @@
 
   <div class="menu-element">
     <button mat-button [matMenuTriggerFor]="aboveMenu">INICIO</button>
-    <mat-menu #aboveMenu="matMenu" yPosition="above">
+    <mat-menu #aboveMenu="matMenu" xPosition="after">
     </mat-menu>
 
     <button mat-button [matMenuTriggerFor]="belowMenu">NOSOTROS</button>
@@ -10,12 +10,12 @@
     </mat-menu>
 
     <button mat-button [matMenuTriggerFor]="beforeMenu">TIENDAS</button>
-    <mat-menu #beforeMenu="matMenu" yPosition="above">
+    <mat-menu #beforeMenu="matMenu" xPosition="after">
       <button mat-menu-item>Tienda 1</button>
     </mat-menu>
 
     <button mat-button [matMenuTriggerFor]="afterMenu">BLOG</button>
-    <mat-menu #afterMenu="matMenu" yPosition="above">
+    <mat-menu #afterMenu="matMenu" xPosition="after">
     </mat-menu>
   </div>
 
