@@ -1,0 +1,26 @@
+<nav>
+
+  <div class="menu-element">
+    <button mat-button [matMenuTriggerFor]="aboveMenu">INICIO</button>
+    <mat-menu #aboveMenu="matMenu" yPosition="above">
+      <button mat-menu-item>Item 1</button>
+    </mat-menu>
+
+    <button mat-button [matMenuTriggerFor]="belowMenu">NOSOTROS</button>
+    <mat-menu #belowMenu="matMenu" yPosition="above">
+      <button mat-menu-item>Item 1</button>
+    </mat-menu>
+
+    <button mat-button [matMenuTriggerFor]="beforeMenu">TIENDAS</button>
+    <mat-menu #beforeMenu="matMenu" yPosition="above">
+      <button mat-menu-item>Item 1</button>
+    </mat-menu>
+
+    <button mat-button [matMenuTriggerFor]="afterMenu">BLOG</button>
+    <mat-menu #afterMenu="matMenu" yPosition="above">
+      <button mat-menu-item>Item 1</button>
+    </mat-menu>
+  </div>
+
+
+</nav>
