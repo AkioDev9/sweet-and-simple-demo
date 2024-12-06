@@ -1,12 +1,51 @@
 .menu-element {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
+    justify-content: space-between;  /* Distribuye los elementos en el contenedor */
+    align-items: center;  /* Alinea los elementos verticalmente al centro */
+    height: 164px;
     background-color: #F0DBDB;
     color: black;
+    padding: 0 20px;  /* Espacio de los lados del contenedor */
 }
 
 .menu-element button {
-    color: black; 
+    font-size: 24px;
+    color: black;
+    font-family: "Inter", sans-serif;
+}
+
+.logo {
+    flex: 0 1 auto;  /* El logo no se estira ni se encoje */
+    max-width: 197px;  /* Asegura que el logo no sea más grande que un valor máximo */
+}
+
+.menu-buttons button {
+    border-radius: 8px;  /* Esquinas redondeadas */
+    transition: background-color 0.4s, transform 0.4s;  /* Transiciones de color y tamaño */
+}
+
+.menu-buttons button:hover {
+    color: black;
+    background-color: #DBA39A;
+    transform: scale(1.1);  /* Aumenta ligeramente el tamaño sin afectar la disposición */
+}
+
+
+.icons {
+    font-size: 36px;  /* Aumenta el tamaño de los iconos */
+    flex: 0 1 auto;  /* Asegura que los iconos no se estiren ni se encojan */
+    width: 197px;
+    display: flex;
+    align-items: center;
+    gap: 20px;  /* Espacio entre los iconos */
+}
+
+.icons mat-icon {
+    font-size: 36px;  /* Aumenta el tamaño de los iconos */
+    flex: 0 1 auto;  /* Asegura que los iconos no se estiren ni se encojan */
+    width: 197px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 20px;  /* Espacio entre los iconos */
 }
