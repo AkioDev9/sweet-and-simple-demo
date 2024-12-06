@@ -1,0 +1,12 @@
+.menu-element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #F0DBDB;
+    color: black;
+}
+
+.menu-element button {
+    color: black; 
+}
