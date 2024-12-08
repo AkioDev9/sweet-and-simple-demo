@@ -1,30 +1,25 @@
 <nav>
-    <div class="menu-element">
-      <img class="logo" src="../assets/Logo.png" alt="Logo">
-  
-      <div class="menu-buttons">
-        <button mat-button [matMenuTriggerFor]="aboveMenu" [routerLink]="''" >INICIO</button>
-        <mat-menu #aboveMenu="matMenu" xPosition="after"></mat-menu>
-  
-        <button mat-button [matMenuTriggerFor]="belowMenu" [routerLink]="'about'">NOSOTROS</button>
-        <mat-menu #belowMenu="matMenu" yPosition="above"></mat-menu>
-  
-        <button mat-button [matMenuTriggerFor]="beforeMenu">TIENDAS</button>
-        <mat-menu #beforeMenu="matMenu" xPosition="after">
-          <button mat-menu-item>Tienda 1</button>
-        </mat-menu>
-  
-        <button mat-button [matMenuTriggerFor]="afterMenu">BLOG</button>
-        <mat-menu #afterMenu="matMenu" xPosition="after"></mat-menu>
-      </div>
-  
-      <div class="icons">
-        <mat-icon>account_circle</mat-icon> <!-- Icono de cuenta -->
-        <mat-icon>shopping_cart</mat-icon>  <!-- Icono de carrito -->
-      </div>
+  <div class="menu-element">
+    <img class="logo" src="../assets/Logo.png" alt="Logo">
+
+    <div class="menu-buttons">
+      <button mat-button [routerLink]="''">INICIO</button>
+
+      <button mat-button [routerLink]="'about'">NOSOTROS</button>
+
+      <button mat-button [matMenuTriggerFor]="beforeMenu">TIENDAS</button>
+      <mat-menu #beforeMenu="matMenu" xPosition="after">
+        <button mat-menu-item>Tienda 1</button>
+      </mat-menu>
+
+      <button mat-button>BLOG</button>
     </div>
-  </nav>
-  
-  <router-outlet></router-outlet>
 
+    <div class="icons">
+      <mat-icon>account_circle</mat-icon> <!-- Icono de cuenta -->
+      <mat-icon>shopping_cart</mat-icon> <!-- Icono de carrito -->
+    </div>
+  </div>
+</nav>
 
+<router-outlet></router-outlet>

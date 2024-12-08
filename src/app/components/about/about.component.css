@@ -84,6 +84,31 @@ h1 {
     text-align: center;
 }
 
+
+.extra {
+    position: relative;
+}
+
+.extra .extra-desc {
+    visibility: hidden;
+    width: 40%;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.extra:hover .extra-desc {
+    visibility: visible;
+}
+
 .mision-vision p {
     max-width: 590px;
     font-size: 20px;
