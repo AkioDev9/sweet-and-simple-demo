@@ -1,0 +1,116 @@
+.quienes-somos {
+    padding-top: 1%;
+    padding-left: 3%;
+    font-size: 25px;
+    line-height: 1;
+    font-family: "Inter", sans-serif;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    padding-left: 3%;
+    padding-top: 1%;
+    font-family: "Inter", sans-serif;
+}
+
+.desarrolladores h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 3.5rem;
+    font-family: "Inter", sans-serif;
+}
+
+.contenedor-desarrolladores {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+}
+
+.desarrollador {
+    width: 45%;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+.desarrollador h3 {
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.desarrollador p {
+    max-width: 450px;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.developer {
+    width: 308px;
+    height: 299px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 15px;
+}
+
+.mision-vision {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+}
+
+.mision,
+.vision {
+    max-width: 450px;
+    align-content: center;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.mision h3,
+.vision h3 {
+    padding-top: 20px;
+    font-size: 2.5rem;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.mision-vision p {
+    max-width: 590px;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.5;
+}
+
+
+.mision-img,
+.vision-img {
+    padding-top: 20%;
+    width: 100%;
+    max-width: 650px;
+    height: 330px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 15px;
+}
+
+
+.slogan {
+    font-family: "Cookie", serif;
+    padding-top: 150px;
+    text-align: center;
+}
+
+.slogan h2 {
+    font-size: 64px;
+}
